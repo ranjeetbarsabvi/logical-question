@@ -58,7 +58,7 @@ test('Example 3: Input: s = "2[abc]3[cd]ef" Output: "abcabccdcdcdef"', (t) => {
 });
 
 // additional
-test('Example 3: Input: s = "2[a2[b2[c]]]" Output: "abccbccabccbcc"', (t) => {
+test('Example 4: Input: s = "2[a2[b2[c]]]" Output: "abccbccabccbcc"', (t) => {
     const input = "2[a2[b2[c]]]";
     const expected = "abccbccabccbcc";
     const result = run(input);
