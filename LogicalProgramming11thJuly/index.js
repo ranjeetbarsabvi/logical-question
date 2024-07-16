@@ -44,7 +44,7 @@ test('Example 3: Input: s = "ab" Output: 1', (t) => {
 });
 
 // additional
-test('Example 3: Input: s = "aaabbccc" Output: 2', (t) => {
+test('Example 4: Input: s = "aaabbccc" Output: 2', (t) => {
     const input = "ab";
     const expected = 1;
     const result = run(input);
