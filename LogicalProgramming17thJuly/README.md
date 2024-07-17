@@ -14,7 +14,7 @@ rounded to -231, and integers greater than 231 - 1 should be rounded to 231 - 1.
 #### Example 1:
 Input: s = "42" \
 Output: 42 \
-Explanation: \  
+Explanation:  
 The underlined characters are what is read in and the caret is the current reader position. \
 Step 1: "42" (no characters read because there is no leading whitespace) \
 Step 2: "42" (no characters read because there is neither a '-' nor '+') \
