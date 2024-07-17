@@ -11,7 +11,7 @@ round the integer to remain in the range. Specifically, integers less than -231 
 rounded to -231, and integers greater than 231 - 1 should be rounded to 231 - 1.
 - Return the integer as the final result.
 
-   #### Example 1:
+#### Example 1:
 Input: s = "42"
 Output: 42 
 Explanation: 
