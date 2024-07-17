@@ -12,12 +12,12 @@ rounded to -231, and integers greater than 231 - 1 should be rounded to 231 - 1.
 - Return the integer as the final result.
 
 #### Example 1:
-Input: s = "42" 
-Output: 42 
-Explanation:  
-The underlined characters are what is read in and the caret is the current reader position. 
-Step 1: "42" (no characters read because there is no leading whitespace) 
-Step 2: "42" (no characters read because there is neither a '-' nor '+') 
+Input: s = "42" / 
+Output: 42 /
+Explanation: /  
+The underlined characters are what is read in and the caret is the current reader position. /
+Step 1: "42" (no characters read because there is no leading whitespace) /
+Step 2: "42" (no characters read because there is neither a '-' nor '+') /
 Step 3: "42" ("42" is read in) 
 
 #### Example 2:
